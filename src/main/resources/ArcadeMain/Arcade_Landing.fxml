@@ -10,6 +10,7 @@
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
     </padding>
 
-    <Label fx:id="Message"/>
-    <Button fx:id="fourOnRow" text="Four on a Row" onAction="#onButtonClick"/>
+    <Button fx:id="sinkTheFleet" minWidth="100" maxWidth="100" minHeight="50" maxHeight="50" text="Sink the fleet" onAction="#switchToScene2"/>
+    <Button fx:id="threeInRow" minWidth="100" maxWidth="50" minHeight="50" maxHeight="50" text="Three in a row" onAction="#switchToScene3"/>
+    <Button fx:id="exit" minWidth="100" maxWidth="50" minHeight="50" maxHeight="50" text="Exit" onAction="#programEnd"/>
 </VBox>

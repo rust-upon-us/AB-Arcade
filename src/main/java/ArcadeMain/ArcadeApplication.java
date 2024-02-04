@@ -1,4 +1,8 @@
-import ArcadeControllers.LandingController;
+package ArcadeMain;
+
+import ArcadeControllers.ArcadeController;
+import ArcadeGlobal.WindowHeight;
+import ArcadeGlobal.WindowWidth;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -12,23 +16,29 @@ public class ArcadeApplication extends Application {
     private static Stage primaryStage;
     private static Scene scene1;
     private static Scene scene2;
+    private static Scene scene3;
+    private static Scene scene4;
+    private static Scene scene5;
 
     public static void main(String[] args) {
-        launch(args);
+        launch();
     }
     @Override
-    public void start(Stage primaryStage){
+    public void start(Stage stage){
+        // Store the parameter for future usage
+        primaryStage = stage;
         // Create the main scene for the application "ArcadeLanding"
-        scene1 = createScene("scene.fxml", 300, 200);
-
+        scene1 = createScene("Arcade_Landing.fxml", WindowWidth.getInstance().getWidth(), WindowHeight.getInstance().getHeight());
         // Create the scene for the game mode "Sink the fleet"
-        scene2 = createScene("scene.fxml", 300, 200);
+        scene2 = createScene("Arcade_Sink_The_Fleet.fxml", WindowWidth.getInstance().getWidth(), WindowHeight.getInstance().getHeight());
 
+        scene3 = createScene("Arcade_Three_In_Row.fxml", WindowWidth.getInstance().getWidth(), WindowHeight.getInstance().getHeight());
+        scene4 = createScene("Arcade_Three_In_Row.fxml", WindowWidth.getInstance().getWidth(), WindowHeight.getInstance().getHeight());
+        scene5 = createScene("Arcade_Three_In_Row.fxml", WindowWidth.getInstance().getWidth(), WindowHeight.getInstance().getHeight());
         // Check for the possibility of not being able to recover some of the scenes
-        if (scene1 != null || scene2 != null){
+        if (scene1 != null || scene2 != null || scene3 != null|| scene4 != null|| scene5 != null){
             // All the scenes were recovered properly proceed with the display of the main window
-            primaryStage.setTitle("Two Scene App");
-            primaryStage.setScene(scene1);
+            changeScene(scene1,"Landing");
             primaryStage.show();
         }else {
             // Some error occurred, end of program
@@ -60,7 +70,7 @@ public class ArcadeApplication extends Application {
                 // Load the data of the file to obtain required information
                 Parent root = loader.load();
                 // Recover the controller for the file
-                LandingController controller = loader.getController();
+                ArcadeController controller = loader.getController();
                 // Link the controller to the current implementation of "Application"
                 controller.setMain(this);
                 // return the data of the file for further usage
@@ -91,5 +101,14 @@ public class ArcadeApplication extends Application {
     }
     public static Scene getSecondScene(){
         return scene2;
+    }
+    public static Scene getThirdScene(){
+        return scene3;
+    }
+    public static Scene getFourthScene(){
+        return scene4;
+    }
+    public static Scene getFifthScene(){
+        return scene5;
     }
 }

@@ -1,13 +1,516 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.layout.GridPane?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.shape.SVGPath?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.layout.HBox?>
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml" fx:controller="ArcadeControllers.SinkTheFleetController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+    <GridPane hgap="5" vgap="5" alignment="CENTER">
+        <Button fx:id="grid0101" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="0" GridPane.rowIndex="0" onAction="#fireShell"/>
+        <Button fx:id="grid0102" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="1" GridPane.rowIndex="0" onAction="#fireShell"/>
+        <Button fx:id="grid0103" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="2" GridPane.rowIndex="0" onAction="#fireShell"/>
+        <Button fx:id="grid0104" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="3" GridPane.rowIndex="0" onAction="#fireShell"/>
+        <Button fx:id="grid0105" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="4" GridPane.rowIndex="0" onAction="#fireShell"/>
+        <Button fx:id="grid0106" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="5" GridPane.rowIndex="0" onAction="#fireShell"/>
+        <Button fx:id="grid0107" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="6" GridPane.rowIndex="0" onAction="#fireShell"/>
+        <Button fx:id="grid0108" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="7" GridPane.rowIndex="0" onAction="#fireShell"/>
+        <Button fx:id="grid0109" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="8" GridPane.rowIndex="0" onAction="#fireShell"/>
+        <Button fx:id="grid0110" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="9" GridPane.rowIndex="0" onAction="#fireShell"/>
+        <Button fx:id="grid0111" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="10" GridPane.rowIndex="0" onAction="#fireShell"/>
+        <Button fx:id="grid0112" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="11" GridPane.rowIndex="0" onAction="#fireShell"/>
+        <Button fx:id="grid0113" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="12" GridPane.rowIndex="0" onAction="#fireShell"/>
+        <Button fx:id="grid0114" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="13" GridPane.rowIndex="0" onAction="#fireShell"/>
+        <Button fx:id="grid0115" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="14" GridPane.rowIndex="0" onAction="#fireShell"/>
+        <Button fx:id="grid0116" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="15" GridPane.rowIndex="0" onAction="#fireShell"/>
+        <Button fx:id="grid0117" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="16" GridPane.rowIndex="0" onAction="#fireShell"/>
+        <Button fx:id="grid0118" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="17" GridPane.rowIndex="0" onAction="#fireShell"/>
+        <Button fx:id="grid0119" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="18" GridPane.rowIndex="0" onAction="#fireShell"/>
+        <Button fx:id="grid0120" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="19" GridPane.rowIndex="0" onAction="#fireShell"/>
 
-<GridPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="your.package.name.GridController" alignment="CENTER" hgap="5" vgap="5">
-    <!-- Add Buttons for a 20x20 grid -->
+        <Button fx:id="grid0201" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="0" GridPane.rowIndex="1" onAction="#fireShell"/>
+        <Button fx:id="grid0202" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="1" GridPane.rowIndex="1" onAction="#fireShell"/>
+        <Button fx:id="grid0203" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="2" GridPane.rowIndex="1" onAction="#fireShell"/>
+        <Button fx:id="grid0204" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="3" GridPane.rowIndex="1" onAction="#fireShell"/>
+        <Button fx:id="grid0205" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="4" GridPane.rowIndex="1" onAction="#fireShell"/>
+        <Button fx:id="grid0206" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="5" GridPane.rowIndex="1" onAction="#fireShell"/>
+        <Button fx:id="grid0207" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="6" GridPane.rowIndex="1" onAction="#fireShell"/>
+        <Button fx:id="grid0208" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="7" GridPane.rowIndex="1" onAction="#fireShell"/>
+        <Button fx:id="grid0209" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="8" GridPane.rowIndex="1" onAction="#fireShell"/>
+        <Button fx:id="grid0210" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="9" GridPane.rowIndex="1" onAction="#fireShell"/>
+        <Button fx:id="grid0211" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="10" GridPane.rowIndex="1" onAction="#fireShell"/>
+        <Button fx:id="grid0212" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="11" GridPane.rowIndex="1" onAction="#fireShell"/>
+        <Button fx:id="grid0213" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="12" GridPane.rowIndex="1" onAction="#fireShell"/>
+        <Button fx:id="grid0214" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="13" GridPane.rowIndex="1" onAction="#fireShell"/>
+        <Button fx:id="grid0215" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="14" GridPane.rowIndex="1" onAction="#fireShell"/>
+        <Button fx:id="grid0216" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="15" GridPane.rowIndex="1" onAction="#fireShell"/>
+        <Button fx:id="grid0217" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="16" GridPane.rowIndex="1" onAction="#fireShell"/>
+        <Button fx:id="grid0218" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="17" GridPane.rowIndex="1" onAction="#fireShell"/>
+        <Button fx:id="grid0219" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="18" GridPane.rowIndex="1" onAction="#fireShell"/>
+        <Button fx:id="grid0220" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="19" GridPane.rowIndex="1" onAction="#fireShell"/>
 
-    <!-- You can customize the buttons as needed -->
-    <Button text="1" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
-    <!-- Add more buttons for other cells in the grid -->
+        <Button fx:id="grid0301" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="0" GridPane.rowIndex="2" onAction="#fireShell"/>
+        <Button fx:id="grid0302" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="1" GridPane.rowIndex="2" onAction="#fireShell"/>
+        <Button fx:id="grid0303" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="2" GridPane.rowIndex="2" onAction="#fireShell"/>
+        <Button fx:id="grid0304" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="3" GridPane.rowIndex="2" onAction="#fireShell"/>
+        <Button fx:id="grid0305" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="4" GridPane.rowIndex="2" onAction="#fireShell"/>
+        <Button fx:id="grid0306" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="5" GridPane.rowIndex="2" onAction="#fireShell"/>
+        <Button fx:id="grid0307" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="6" GridPane.rowIndex="2" onAction="#fireShell"/>
+        <Button fx:id="grid0308" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="7" GridPane.rowIndex="2" onAction="#fireShell"/>
+        <Button fx:id="grid0309" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="8" GridPane.rowIndex="2" onAction="#fireShell"/>
+        <Button fx:id="grid0310" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="9" GridPane.rowIndex="2" onAction="#fireShell"/>
+        <Button fx:id="grid0311" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="10" GridPane.rowIndex="2" onAction="#fireShell"/>
+        <Button fx:id="grid0312" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="11" GridPane.rowIndex="2" onAction="#fireShell"/>
+        <Button fx:id="grid0313" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="12" GridPane.rowIndex="2" onAction="#fireShell"/>
+        <Button fx:id="grid0314" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="13" GridPane.rowIndex="2" onAction="#fireShell"/>
+        <Button fx:id="grid0315" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="14" GridPane.rowIndex="2" onAction="#fireShell"/>
+        <Button fx:id="grid0316" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="15" GridPane.rowIndex="2" onAction="#fireShell"/>
+        <Button fx:id="grid0317" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="16" GridPane.rowIndex="2" onAction="#fireShell"/>
+        <Button fx:id="grid0318" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="17" GridPane.rowIndex="2" onAction="#fireShell"/>
+        <Button fx:id="grid0319" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="18" GridPane.rowIndex="2" onAction="#fireShell"/>
+        <Button fx:id="grid0320" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="19" GridPane.rowIndex="2" onAction="#fireShell"/>
 
-</GridPane>
+        <Button fx:id="grid0401" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="0" GridPane.rowIndex="3" onAction="#fireShell"/>
+        <Button fx:id="grid0402" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="1" GridPane.rowIndex="3" onAction="#fireShell"/>
+        <Button fx:id="grid0403" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="2" GridPane.rowIndex="3" onAction="#fireShell"/>
+        <Button fx:id="grid0404" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="3" GridPane.rowIndex="3" onAction="#fireShell"/>
+        <Button fx:id="grid0405" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="4" GridPane.rowIndex="3" onAction="#fireShell"/>
+        <Button fx:id="grid0406" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="5" GridPane.rowIndex="3" onAction="#fireShell"/>
+        <Button fx:id="grid0407" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="6" GridPane.rowIndex="3" onAction="#fireShell"/>
+        <Button fx:id="grid0408" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="7" GridPane.rowIndex="3" onAction="#fireShell"/>
+        <Button fx:id="grid0409" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="8" GridPane.rowIndex="3" onAction="#fireShell"/>
+        <Button fx:id="grid0410" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="9" GridPane.rowIndex="3" onAction="#fireShell"/>
+        <Button fx:id="grid0411" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="10" GridPane.rowIndex="3" onAction="#fireShell"/>
+        <Button fx:id="grid0412" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="11" GridPane.rowIndex="3" onAction="#fireShell"/>
+        <Button fx:id="grid0413" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="12" GridPane.rowIndex="3" onAction="#fireShell"/>
+        <Button fx:id="grid0414" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="13" GridPane.rowIndex="3" onAction="#fireShell"/>
+        <Button fx:id="grid0415" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="14" GridPane.rowIndex="3" onAction="#fireShell"/>
+        <Button fx:id="grid0416" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="15" GridPane.rowIndex="3" onAction="#fireShell"/>
+        <Button fx:id="grid0417" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="16" GridPane.rowIndex="3" onAction="#fireShell"/>
+        <Button fx:id="grid0418" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="17" GridPane.rowIndex="3" onAction="#fireShell"/>
+        <Button fx:id="grid0419" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="18" GridPane.rowIndex="3" onAction="#fireShell"/>
+        <Button fx:id="grid0420" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="19" GridPane.rowIndex="3" onAction="#fireShell"/>
+
+        <Button fx:id="grid0501" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="0" GridPane.rowIndex="4" onAction="#fireShell"/>
+        <Button fx:id="grid0502" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="1" GridPane.rowIndex="4" onAction="#fireShell"/>
+        <Button fx:id="grid0503" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="2" GridPane.rowIndex="4" onAction="#fireShell"/>
+        <Button fx:id="grid0504" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="3" GridPane.rowIndex="4" onAction="#fireShell"/>
+        <Button fx:id="grid0505" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="4" GridPane.rowIndex="4" onAction="#fireShell"/>
+        <Button fx:id="grid0506" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="5" GridPane.rowIndex="4" onAction="#fireShell"/>
+        <Button fx:id="grid0507" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="6" GridPane.rowIndex="4" onAction="#fireShell"/>
+        <Button fx:id="grid0508" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="7" GridPane.rowIndex="4" onAction="#fireShell"/>
+        <Button fx:id="grid0509" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="8" GridPane.rowIndex="4" onAction="#fireShell"/>
+        <Button fx:id="grid0510" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="9" GridPane.rowIndex="4" onAction="#fireShell"/>
+        <Button fx:id="grid0511" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="10" GridPane.rowIndex="4" onAction="#fireShell"/>
+        <Button fx:id="grid0512" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="11" GridPane.rowIndex="4" onAction="#fireShell"/>
+        <Button fx:id="grid0513" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="12" GridPane.rowIndex="4" onAction="#fireShell"/>
+        <Button fx:id="grid0514" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="13" GridPane.rowIndex="4" onAction="#fireShell"/>
+        <Button fx:id="grid0515" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="14" GridPane.rowIndex="4" onAction="#fireShell"/>
+        <Button fx:id="grid0516" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="15" GridPane.rowIndex="4" onAction="#fireShell"/>
+        <Button fx:id="grid0517" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="16" GridPane.rowIndex="4" onAction="#fireShell"/>
+        <Button fx:id="grid0518" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="17" GridPane.rowIndex="4" onAction="#fireShell"/>
+        <Button fx:id="grid0519" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="18" GridPane.rowIndex="4" onAction="#fireShell"/>
+        <Button fx:id="grid0520" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="19" GridPane.rowIndex="4" onAction="#fireShell"/>
+
+        <Button fx:id="grid0601" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="0" GridPane.rowIndex="5" onAction="#fireShell"/>
+        <Button fx:id="grid0602" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="1" GridPane.rowIndex="5" onAction="#fireShell"/>
+        <Button fx:id="grid0603" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="2" GridPane.rowIndex="5" onAction="#fireShell"/>
+        <Button fx:id="grid0604" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="3" GridPane.rowIndex="5" onAction="#fireShell"/>
+        <Button fx:id="grid0605" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="4" GridPane.rowIndex="5" onAction="#fireShell"/>
+        <Button fx:id="grid0606" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="5" GridPane.rowIndex="5" onAction="#fireShell"/>
+        <Button fx:id="grid0607" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="6" GridPane.rowIndex="5" onAction="#fireShell"/>
+        <Button fx:id="grid0608" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="7" GridPane.rowIndex="5" onAction="#fireShell"/>
+        <Button fx:id="grid0609" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="8" GridPane.rowIndex="5" onAction="#fireShell"/>
+        <Button fx:id="grid0610" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="9" GridPane.rowIndex="5" onAction="#fireShell"/>
+        <Button fx:id="grid0611" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="10" GridPane.rowIndex="5" onAction="#fireShell"/>
+        <Button fx:id="grid0612" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="11" GridPane.rowIndex="5" onAction="#fireShell"/>
+        <Button fx:id="grid0613" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="12" GridPane.rowIndex="5" onAction="#fireShell"/>
+        <Button fx:id="grid0614" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="13" GridPane.rowIndex="5" onAction="#fireShell"/>
+        <Button fx:id="grid0615" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="14" GridPane.rowIndex="5" onAction="#fireShell"/>
+        <Button fx:id="grid0616" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="15" GridPane.rowIndex="5" onAction="#fireShell"/>
+        <Button fx:id="grid0617" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="16" GridPane.rowIndex="5" onAction="#fireShell"/>
+        <Button fx:id="grid0618" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="17" GridPane.rowIndex="5" onAction="#fireShell"/>
+        <Button fx:id="grid0619" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="18" GridPane.rowIndex="5" onAction="#fireShell"/>
+        <Button fx:id="grid0620" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="19" GridPane.rowIndex="5" onAction="#fireShell"/>
+
+        <Button fx:id="grid0701" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="0" GridPane.rowIndex="6" onAction="#fireShell"/>
+        <Button fx:id="grid0702" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="1" GridPane.rowIndex="6" onAction="#fireShell"/>
+        <Button fx:id="grid0703" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="2" GridPane.rowIndex="6" onAction="#fireShell"/>
+        <Button fx:id="grid0704" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="3" GridPane.rowIndex="6" onAction="#fireShell"/>
+        <Button fx:id="grid0705" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="4" GridPane.rowIndex="6" onAction="#fireShell"/>
+        <Button fx:id="grid0706" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="5" GridPane.rowIndex="6" onAction="#fireShell"/>
+        <Button fx:id="grid0707" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="6" GridPane.rowIndex="6" onAction="#fireShell"/>
+        <Button fx:id="grid0708" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="7" GridPane.rowIndex="6" onAction="#fireShell"/>
+        <Button fx:id="grid0709" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="8" GridPane.rowIndex="6" onAction="#fireShell"/>
+        <Button fx:id="grid0710" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="9" GridPane.rowIndex="6" onAction="#fireShell"/>
+        <Button fx:id="grid0711" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="10" GridPane.rowIndex="6" onAction="#fireShell"/>
+        <Button fx:id="grid0712" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="11" GridPane.rowIndex="6" onAction="#fireShell"/>
+        <Button fx:id="grid0713" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="12" GridPane.rowIndex="6" onAction="#fireShell"/>
+        <Button fx:id="grid0714" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="13" GridPane.rowIndex="6" onAction="#fireShell"/>
+        <Button fx:id="grid0715" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="14" GridPane.rowIndex="6" onAction="#fireShell"/>
+        <Button fx:id="grid0716" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="15" GridPane.rowIndex="6" onAction="#fireShell"/>
+        <Button fx:id="grid0717" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="16" GridPane.rowIndex="6" onAction="#fireShell"/>
+        <Button fx:id="grid0718" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="17" GridPane.rowIndex="6" onAction="#fireShell"/>
+        <Button fx:id="grid0719" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="18" GridPane.rowIndex="6" onAction="#fireShell"/>
+        <Button fx:id="grid0720" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="19" GridPane.rowIndex="6" onAction="#fireShell"/>
+
+        <Button fx:id="grid0801" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="0" GridPane.rowIndex="7" onAction="#fireShell"/>
+        <Button fx:id="grid0802" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="1" GridPane.rowIndex="7" onAction="#fireShell"/>
+        <Button fx:id="grid0803" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="2" GridPane.rowIndex="7" onAction="#fireShell"/>
+        <Button fx:id="grid0804" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="3" GridPane.rowIndex="7" onAction="#fireShell"/>
+        <Button fx:id="grid0805" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="4" GridPane.rowIndex="7" onAction="#fireShell"/>
+        <Button fx:id="grid0806" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="5" GridPane.rowIndex="7" onAction="#fireShell"/>
+        <Button fx:id="grid0807" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="6" GridPane.rowIndex="7" onAction="#fireShell"/>
+        <Button fx:id="grid0808" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="7" GridPane.rowIndex="7" onAction="#fireShell"/>
+        <Button fx:id="grid0809" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="8" GridPane.rowIndex="7" onAction="#fireShell"/>
+        <Button fx:id="grid0810" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="9" GridPane.rowIndex="7" onAction="#fireShell"/>
+        <Button fx:id="grid0811" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="10" GridPane.rowIndex="7" onAction="#fireShell"/>
+        <Button fx:id="grid0812" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="11" GridPane.rowIndex="7" onAction="#fireShell"/>
+        <Button fx:id="grid0813" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="12" GridPane.rowIndex="7" onAction="#fireShell"/>
+        <Button fx:id="grid0814" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="13" GridPane.rowIndex="7" onAction="#fireShell"/>
+        <Button fx:id="grid0815" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="14" GridPane.rowIndex="7" onAction="#fireShell"/>
+        <Button fx:id="grid0816" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="15" GridPane.rowIndex="7" onAction="#fireShell"/>
+        <Button fx:id="grid0817" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="16" GridPane.rowIndex="7" onAction="#fireShell"/>
+        <Button fx:id="grid0818" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="17" GridPane.rowIndex="7" onAction="#fireShell"/>
+        <Button fx:id="grid0819" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="18" GridPane.rowIndex="7" onAction="#fireShell"/>
+        <Button fx:id="grid0820" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="19" GridPane.rowIndex="7" onAction="#fireShell"/>
+
+        <Button fx:id="grid0901" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="0" GridPane.rowIndex="8" onAction="#fireShell"/>
+        <Button fx:id="grid0902" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="1" GridPane.rowIndex="8" onAction="#fireShell"/>
+        <Button fx:id="grid0903" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="2" GridPane.rowIndex="8" onAction="#fireShell"/>
+        <Button fx:id="grid0904" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="3" GridPane.rowIndex="8" onAction="#fireShell"/>
+        <Button fx:id="grid0905" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="4" GridPane.rowIndex="8" onAction="#fireShell"/>
+        <Button fx:id="grid0906" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="5" GridPane.rowIndex="8" onAction="#fireShell"/>
+        <Button fx:id="grid0907" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="6" GridPane.rowIndex="8" onAction="#fireShell"/>
+        <Button fx:id="grid0908" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="7" GridPane.rowIndex="8" onAction="#fireShell"/>
+        <Button fx:id="grid0909" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="8" GridPane.rowIndex="8" onAction="#fireShell"/>
+        <Button fx:id="grid0910" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="9" GridPane.rowIndex="8" onAction="#fireShell"/>
+        <Button fx:id="grid0911" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="10" GridPane.rowIndex="8" onAction="#fireShell"/>
+        <Button fx:id="grid0912" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="11" GridPane.rowIndex="8" onAction="#fireShell"/>
+        <Button fx:id="grid0913" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="12" GridPane.rowIndex="8" onAction="#fireShell"/>
+        <Button fx:id="grid0914" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="13" GridPane.rowIndex="8" onAction="#fireShell"/>
+        <Button fx:id="grid0915" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="14" GridPane.rowIndex="8" onAction="#fireShell"/>
+        <Button fx:id="grid0916" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="15" GridPane.rowIndex="8" onAction="#fireShell"/>
+        <Button fx:id="grid0917" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="16" GridPane.rowIndex="8" onAction="#fireShell"/>
+        <Button fx:id="grid0918" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="17" GridPane.rowIndex="8" onAction="#fireShell"/>
+        <Button fx:id="grid0919" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="18" GridPane.rowIndex="8" onAction="#fireShell"/>
+        <Button fx:id="grid0920" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="19" GridPane.rowIndex="8" onAction="#fireShell"/>
+
+        <Button fx:id="grid1001" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="0" GridPane.rowIndex="9" onAction="#fireShell"/>
+        <Button fx:id="grid1002" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="1" GridPane.rowIndex="9" onAction="#fireShell"/>
+        <Button fx:id="grid1003" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="2" GridPane.rowIndex="9" onAction="#fireShell"/>
+        <Button fx:id="grid1004" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="3" GridPane.rowIndex="9" onAction="#fireShell"/>
+        <Button fx:id="grid1005" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="4" GridPane.rowIndex="9" onAction="#fireShell"/>
+        <Button fx:id="grid1006" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="5" GridPane.rowIndex="9" onAction="#fireShell"/>
+        <Button fx:id="grid1007" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="6" GridPane.rowIndex="9" onAction="#fireShell"/>
+        <Button fx:id="grid1008" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="7" GridPane.rowIndex="9" onAction="#fireShell"/>
+        <Button fx:id="grid1009" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="8" GridPane.rowIndex="9" onAction="#fireShell"/>
+        <Button fx:id="grid1010" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="9" GridPane.rowIndex="9" onAction="#fireShell"/>
+        <Button fx:id="grid1011" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="10" GridPane.rowIndex="9" onAction="#fireShell"/>
+        <Button fx:id="grid1012" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="11" GridPane.rowIndex="9" onAction="#fireShell"/>
+        <Button fx:id="grid1013" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="12" GridPane.rowIndex="9" onAction="#fireShell"/>
+        <Button fx:id="grid1014" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="13" GridPane.rowIndex="9" onAction="#fireShell"/>
+        <Button fx:id="grid1015" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="14" GridPane.rowIndex="9" onAction="#fireShell"/>
+        <Button fx:id="grid1016" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="15" GridPane.rowIndex="9" onAction="#fireShell"/>
+        <Button fx:id="grid1017" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="16" GridPane.rowIndex="9" onAction="#fireShell"/>
+        <Button fx:id="grid1018" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="17" GridPane.rowIndex="9" onAction="#fireShell"/>
+        <Button fx:id="grid1019" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="18" GridPane.rowIndex="9" onAction="#fireShell"/>
+        <Button fx:id="grid1020" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="19" GridPane.rowIndex="9" onAction="#fireShell"/>
+
+        <Label GridPane.rowIndex="10"/>
+        <Button fx:id="ship01" disable="true" minWidth="50" maxWidth="50" GridPane.rowIndex="10" GridPane.columnIndex="0" onAction="#startDeployment">
+            <graphic>
+                <ImageView fitWidth="50" fitHeight="50">
+                    <Image url="@ArcadeGraphics/submarine.png"/>
+                </ImageView>
+            </graphic>
+        </Button>
+        <Button fx:id="ship02" disable="true" minWidth="50" maxWidth="50" GridPane.rowIndex="10" GridPane.columnIndex="2" onAction="#startDeployment">
+            <graphic>
+                <ImageView fitWidth="50" fitHeight="50">
+                    <Image url="@ArcadeGraphics/submarine.png"/>
+                </ImageView>
+            </graphic>
+        </Button>
+        <Button fx:id="ship03" disable="true" minWidth="50" maxWidth="50" GridPane.rowIndex="10" GridPane.columnIndex="4" onAction="#startDeployment">
+            <graphic>
+                <ImageView fitWidth="50" fitHeight="50">
+                    <Image url="@ArcadeGraphics/Destroyer.png"/>
+                </ImageView>
+            </graphic>
+        </Button>
+        <Button fx:id="ship04" disable="true" minWidth="50" maxWidth="50" GridPane.rowIndex="10" GridPane.columnIndex="6" onAction="#startDeployment">
+            <graphic>
+                <ImageView fitWidth="50" fitHeight="50">
+                    <Image url="@ArcadeGraphics/Destroyer.png"/>
+                </ImageView>
+            </graphic>
+        </Button>
+        <Button fx:id="ship05" disable="true" minWidth="50" maxWidth="50" GridPane.rowIndex="10" GridPane.columnIndex="8" onAction="#startDeployment">
+            <graphic>
+                <ImageView fitWidth="50" fitHeight="50">
+                    <Image url="@ArcadeGraphics/Cruiser.png"/>
+                </ImageView>
+            </graphic>
+        </Button>
+
+        <Button fx:id="launch" minWidth="100" maxWidth="100" minHeight="50" maxHeight="50" text="Start" GridPane.columnIndex="9" GridPane.rowIndex="10" GridPane.columnSpan="2" onAction="#startGame"/>
+
+        <Button fx:id="ship11" disable="true" minWidth="50" maxWidth="50" GridPane.rowIndex="10" GridPane.columnIndex="11">
+            <graphic>
+                <ImageView fitWidth="50" fitHeight="50">
+                    <Image url="@ArcadeGraphics/Cruiser.png"/>
+                </ImageView>
+            </graphic>
+        </Button>
+        <Button fx:id="ship12" disable="true" minWidth="50" maxWidth="50" GridPane.rowIndex="10" GridPane.columnIndex="13">
+            <graphic>
+                <ImageView fitWidth="50" fitHeight="50">
+                    <Image url="@ArcadeGraphics/Destroyer.png"/>
+                </ImageView>
+            </graphic>
+        </Button>
+        <Button fx:id="ship13" disable="true" minWidth="50" maxWidth="50" GridPane.rowIndex="10" GridPane.columnIndex="15">
+            <graphic>
+                <ImageView fitWidth="50" fitHeight="50">
+                    <Image url="@ArcadeGraphics/Destroyer.png"/>
+                </ImageView>
+            </graphic>
+        </Button>
+        <Button fx:id="ship14" disable="true" minWidth="50" maxWidth="50" GridPane.rowIndex="10" GridPane.columnIndex="17">
+            <graphic>
+                <ImageView fitWidth="50" fitHeight="50">
+                    <Image url="@ArcadeGraphics/submarine.png"/>
+                </ImageView>
+            </graphic>
+        </Button>
+        <Button fx:id="ship15" disable="true"  minWidth="50" maxWidth="50" GridPane.rowIndex="10" GridPane.columnIndex="19">
+            <graphic>
+                <ImageView fitWidth="50" fitHeight="50">
+                    <Image url="@ArcadeGraphics/submarine.png"/>
+                </ImageView>
+            </graphic>
+        </Button>
+
+        <Button fx:id="grid1101" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="0" GridPane.rowIndex="11" onAction="#checkDeployment"/>
+        <Button fx:id="grid1102" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="1" GridPane.rowIndex="11" onAction="#checkDeployment"/>
+        <Button fx:id="grid1103" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="2" GridPane.rowIndex="11" onAction="#checkDeployment"/>
+        <Button fx:id="grid1104" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="3" GridPane.rowIndex="11" onAction="#checkDeployment"/>
+        <Button fx:id="grid1105" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="4" GridPane.rowIndex="11" onAction="#checkDeployment"/>
+        <Button fx:id="grid1106" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="5" GridPane.rowIndex="11" onAction="#checkDeployment"/>
+        <Button fx:id="grid1107" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="6" GridPane.rowIndex="11" onAction="#checkDeployment"/>
+        <Button fx:id="grid1108" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="7" GridPane.rowIndex="11" onAction="#checkDeployment"/>
+        <Button fx:id="grid1109" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="8" GridPane.rowIndex="11" onAction="#checkDeployment"/>
+        <Button fx:id="grid1110" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="9" GridPane.rowIndex="11" onAction="#checkDeployment"/>
+        <Button fx:id="grid1111" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="10" GridPane.rowIndex="11" onAction="#checkDeployment"/>
+        <Button fx:id="grid1112" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="11" GridPane.rowIndex="11" onAction="#checkDeployment"/>
+        <Button fx:id="grid1113" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="12" GridPane.rowIndex="11" onAction="#checkDeployment"/>
+        <Button fx:id="grid1114" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="13" GridPane.rowIndex="11" onAction="#checkDeployment"/>
+        <Button fx:id="grid1115" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="14" GridPane.rowIndex="11" onAction="#checkDeployment"/>
+        <Button fx:id="grid1116" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="15" GridPane.rowIndex="11" onAction="#checkDeployment"/>
+        <Button fx:id="grid1117" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="16" GridPane.rowIndex="11" onAction="#checkDeployment"/>
+        <Button fx:id="grid1118" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="17" GridPane.rowIndex="11" onAction="#checkDeployment"/>
+        <Button fx:id="grid1119" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="18" GridPane.rowIndex="11" onAction="#checkDeployment"/>
+        <Button fx:id="grid1120" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="19" GridPane.rowIndex="11" onAction="#checkDeployment"/>
+
+        <Button fx:id="grid1201" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="0" GridPane.rowIndex="12" onAction="#checkDeployment"/>
+        <Button fx:id="grid1202" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="1" GridPane.rowIndex="12" onAction="#checkDeployment"/>
+        <Button fx:id="grid1203" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="2" GridPane.rowIndex="12" onAction="#checkDeployment"/>
+        <Button fx:id="grid1204" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="3" GridPane.rowIndex="12" onAction="#checkDeployment"/>
+        <Button fx:id="grid1205" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="4" GridPane.rowIndex="12" onAction="#checkDeployment"/>
+        <Button fx:id="grid1206" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="5" GridPane.rowIndex="12" onAction="#checkDeployment"/>
+        <Button fx:id="grid1207" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="6" GridPane.rowIndex="12" onAction="#checkDeployment"/>
+        <Button fx:id="grid1208" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="7" GridPane.rowIndex="12" onAction="#checkDeployment"/>
+        <Button fx:id="grid1209" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="8" GridPane.rowIndex="12" onAction="#checkDeployment"/>
+        <Button fx:id="grid1210" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="9" GridPane.rowIndex="12" onAction="#checkDeployment"/>
+        <Button fx:id="grid1211" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="10" GridPane.rowIndex="12" onAction="#checkDeployment"/>
+        <Button fx:id="grid1212" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="11" GridPane.rowIndex="12" onAction="#checkDeployment"/>
+        <Button fx:id="grid1213" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="12" GridPane.rowIndex="12" onAction="#checkDeployment"/>
+        <Button fx:id="grid1214" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="13" GridPane.rowIndex="12" onAction="#checkDeployment"/>
+        <Button fx:id="grid1215" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="14" GridPane.rowIndex="12" onAction="#checkDeployment"/>
+        <Button fx:id="grid1216" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="15" GridPane.rowIndex="12" onAction="#checkDeployment"/>
+        <Button fx:id="grid1217" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="16" GridPane.rowIndex="12" onAction="#checkDeployment"/>
+        <Button fx:id="grid1218" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="17" GridPane.rowIndex="12" onAction="#checkDeployment"/>
+        <Button fx:id="grid1219" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="18" GridPane.rowIndex="12" onAction="#checkDeployment"/>
+        <Button fx:id="grid1220" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="19" GridPane.rowIndex="12" onAction="#checkDeployment"/>
+
+        <Button fx:id="grid1301" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="0" GridPane.rowIndex="13" onAction="#checkDeployment"/>
+        <Button fx:id="grid1302" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="1" GridPane.rowIndex="13" onAction="#checkDeployment"/>
+        <Button fx:id="grid1303" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="2" GridPane.rowIndex="13" onAction="#checkDeployment"/>
+        <Button fx:id="grid1304" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="3" GridPane.rowIndex="13" onAction="#checkDeployment"/>
+        <Button fx:id="grid1305" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="4" GridPane.rowIndex="13" onAction="#checkDeployment"/>
+        <Button fx:id="grid1306" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="5" GridPane.rowIndex="13" onAction="#checkDeployment"/>
+        <Button fx:id="grid1307" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="6" GridPane.rowIndex="13" onAction="#checkDeployment"/>
+        <Button fx:id="grid1308" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="7" GridPane.rowIndex="13" onAction="#checkDeployment"/>
+        <Button fx:id="grid1309" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="8" GridPane.rowIndex="13" onAction="#checkDeployment"/>
+        <Button fx:id="grid1310" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="9" GridPane.rowIndex="13" onAction="#checkDeployment"/>
+        <Button fx:id="grid1311" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="10" GridPane.rowIndex="13" onAction="#checkDeployment"/>
+        <Button fx:id="grid1312" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="11" GridPane.rowIndex="13" onAction="#checkDeployment"/>
+        <Button fx:id="grid1313" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="12" GridPane.rowIndex="13" onAction="#checkDeployment"/>
+        <Button fx:id="grid1314" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="13" GridPane.rowIndex="13" onAction="#checkDeployment"/>
+        <Button fx:id="grid1315" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="14" GridPane.rowIndex="13" onAction="#checkDeployment"/>
+        <Button fx:id="grid1316" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="15" GridPane.rowIndex="13" onAction="#checkDeployment"/>
+        <Button fx:id="grid1317" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="16" GridPane.rowIndex="13" onAction="#checkDeployment"/>
+        <Button fx:id="grid1318" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="17" GridPane.rowIndex="13" onAction="#checkDeployment"/>
+        <Button fx:id="grid1319" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="18" GridPane.rowIndex="13" onAction="#checkDeployment"/>
+        <Button fx:id="grid1320" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="19" GridPane.rowIndex="13" onAction="#checkDeployment"/>
+
+        <Button fx:id="grid1401" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="0" GridPane.rowIndex="14" onAction="#checkDeployment"/>
+        <Button fx:id="grid1402" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="1" GridPane.rowIndex="14" onAction="#checkDeployment"/>
+        <Button fx:id="grid1403" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="2" GridPane.rowIndex="14" onAction="#checkDeployment"/>
+        <Button fx:id="grid1404" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="3" GridPane.rowIndex="14" onAction="#checkDeployment"/>
+        <Button fx:id="grid1405" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="4" GridPane.rowIndex="14" onAction="#checkDeployment"/>
+        <Button fx:id="grid1406" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="5" GridPane.rowIndex="14" onAction="#checkDeployment"/>
+        <Button fx:id="grid1407" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="6" GridPane.rowIndex="14" onAction="#checkDeployment"/>
+        <Button fx:id="grid1408" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="7" GridPane.rowIndex="14" onAction="#checkDeployment"/>
+        <Button fx:id="grid1409" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="8" GridPane.rowIndex="14" onAction="#checkDeployment"/>
+        <Button fx:id="grid1410" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="9" GridPane.rowIndex="14" onAction="#checkDeployment"/>
+        <Button fx:id="grid1411" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="10" GridPane.rowIndex="14" onAction="#checkDeployment"/>
+        <Button fx:id="grid1412" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="11" GridPane.rowIndex="14" onAction="#checkDeployment"/>
+        <Button fx:id="grid1413" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="12" GridPane.rowIndex="14" onAction="#checkDeployment"/>
+        <Button fx:id="grid1414" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="13" GridPane.rowIndex="14" onAction="#checkDeployment"/>
+        <Button fx:id="grid1415" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="14" GridPane.rowIndex="14" onAction="#checkDeployment"/>
+        <Button fx:id="grid1416" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="15" GridPane.rowIndex="14" onAction="#checkDeployment"/>
+        <Button fx:id="grid1417" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="16" GridPane.rowIndex="14" onAction="#checkDeployment"/>
+        <Button fx:id="grid1418" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="17" GridPane.rowIndex="14" onAction="#checkDeployment"/>
+        <Button fx:id="grid1419" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="18" GridPane.rowIndex="14" onAction="#checkDeployment"/>
+        <Button fx:id="grid1420" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="19" GridPane.rowIndex="14" onAction="#checkDeployment"/>
+
+        <Button fx:id="grid1501" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="0" GridPane.rowIndex="15" onAction="#checkDeployment"/>
+        <Button fx:id="grid1502" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="1" GridPane.rowIndex="15" onAction="#checkDeployment"/>
+        <Button fx:id="grid1503" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="2" GridPane.rowIndex="15" onAction="#checkDeployment"/>
+        <Button fx:id="grid1504" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="3" GridPane.rowIndex="15" onAction="#checkDeployment"/>
+        <Button fx:id="grid1505" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="4" GridPane.rowIndex="15" onAction="#checkDeployment"/>
+        <Button fx:id="grid1506" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="5" GridPane.rowIndex="15" onAction="#checkDeployment"/>
+        <Button fx:id="grid1507" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="6" GridPane.rowIndex="15" onAction="#checkDeployment"/>
+        <Button fx:id="grid1508" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="7" GridPane.rowIndex="15" onAction="#checkDeployment"/>
+        <Button fx:id="grid1509" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="8" GridPane.rowIndex="15" onAction="#checkDeployment"/>
+        <Button fx:id="grid1510" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="9" GridPane.rowIndex="15" onAction="#checkDeployment"/>
+        <Button fx:id="grid1511" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="10" GridPane.rowIndex="15" onAction="#checkDeployment"/>
+        <Button fx:id="grid1512" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="11" GridPane.rowIndex="15" onAction="#checkDeployment"/>
+        <Button fx:id="grid1513" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="12" GridPane.rowIndex="15" onAction="#checkDeployment"/>
+        <Button fx:id="grid1514" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="13" GridPane.rowIndex="15" onAction="#checkDeployment"/>
+        <Button fx:id="grid1515" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="14" GridPane.rowIndex="15" onAction="#checkDeployment"/>
+        <Button fx:id="grid1516" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="15" GridPane.rowIndex="15" onAction="#checkDeployment"/>
+        <Button fx:id="grid1517" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="16" GridPane.rowIndex="15" onAction="#checkDeployment"/>
+        <Button fx:id="grid1518" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="17" GridPane.rowIndex="15" onAction="#checkDeployment"/>
+        <Button fx:id="grid1519" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="18" GridPane.rowIndex="15" onAction="#checkDeployment"/>
+        <Button fx:id="grid1520" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="19" GridPane.rowIndex="15" onAction="#checkDeployment"/>
+
+        <Button fx:id="grid1601" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="0" GridPane.rowIndex="16" onAction="#checkDeployment"/>
+        <Button fx:id="grid1602" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="1" GridPane.rowIndex="16" onAction="#checkDeployment"/>
+        <Button fx:id="grid1603" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="2" GridPane.rowIndex="16" onAction="#checkDeployment"/>
+        <Button fx:id="grid1604" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="3" GridPane.rowIndex="16" onAction="#checkDeployment"/>
+        <Button fx:id="grid1605" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="4" GridPane.rowIndex="16" onAction="#checkDeployment"/>
+        <Button fx:id="grid1606" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="5" GridPane.rowIndex="16" onAction="#checkDeployment"/>
+        <Button fx:id="grid1607" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="6" GridPane.rowIndex="16" onAction="#checkDeployment"/>
+        <Button fx:id="grid1608" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="7" GridPane.rowIndex="16" onAction="#checkDeployment"/>
+        <Button fx:id="grid1609" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="8" GridPane.rowIndex="16" onAction="#checkDeployment"/>
+        <Button fx:id="grid1610" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="9" GridPane.rowIndex="16" onAction="#checkDeployment"/>
+        <Button fx:id="grid1611" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="10" GridPane.rowIndex="16" onAction="#checkDeployment"/>
+        <Button fx:id="grid1612" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="11" GridPane.rowIndex="16" onAction="#checkDeployment"/>
+        <Button fx:id="grid1613" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="12" GridPane.rowIndex="16" onAction="#checkDeployment"/>
+        <Button fx:id="grid1614" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="13" GridPane.rowIndex="16" onAction="#checkDeployment"/>
+        <Button fx:id="grid1615" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="14" GridPane.rowIndex="16" onAction="#checkDeployment"/>
+        <Button fx:id="grid1616" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="15" GridPane.rowIndex="16" onAction="#checkDeployment"/>
+        <Button fx:id="grid1617" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="16" GridPane.rowIndex="16" onAction="#checkDeployment"/>
+        <Button fx:id="grid1618" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="17" GridPane.rowIndex="16" onAction="#checkDeployment"/>
+        <Button fx:id="grid1619" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="18" GridPane.rowIndex="16" onAction="#checkDeployment"/>
+        <Button fx:id="grid1620" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="19" GridPane.rowIndex="16" onAction="#checkDeployment"/>
+
+        <Button fx:id="grid1701" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="0" GridPane.rowIndex="17" onAction="#checkDeployment"/>
+        <Button fx:id="grid1702" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="1" GridPane.rowIndex="17" onAction="#checkDeployment"/>
+        <Button fx:id="grid1703" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="2" GridPane.rowIndex="17" onAction="#checkDeployment"/>
+        <Button fx:id="grid1704" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="3" GridPane.rowIndex="17" onAction="#checkDeployment"/>
+        <Button fx:id="grid1705" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="4" GridPane.rowIndex="17" onAction="#checkDeployment"/>
+        <Button fx:id="grid1706" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="5" GridPane.rowIndex="17" onAction="#checkDeployment"/>
+        <Button fx:id="grid1707" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="6" GridPane.rowIndex="17" onAction="#checkDeployment"/>
+        <Button fx:id="grid1708" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="7" GridPane.rowIndex="17" onAction="#checkDeployment"/>
+        <Button fx:id="grid1709" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="8" GridPane.rowIndex="17" onAction="#checkDeployment"/>
+        <Button fx:id="grid1710" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="9" GridPane.rowIndex="17" onAction="#checkDeployment"/>
+        <Button fx:id="grid1711" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="10" GridPane.rowIndex="17" onAction="#checkDeployment"/>
+        <Button fx:id="grid1712" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="11" GridPane.rowIndex="17" onAction="#checkDeployment"/>
+        <Button fx:id="grid1713" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="12" GridPane.rowIndex="17" onAction="#checkDeployment"/>
+        <Button fx:id="grid1714" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="13" GridPane.rowIndex="17" onAction="#checkDeployment"/>
+        <Button fx:id="grid1715" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="14" GridPane.rowIndex="17" onAction="#checkDeployment"/>
+        <Button fx:id="grid1716" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="15" GridPane.rowIndex="17" onAction="#checkDeployment"/>
+        <Button fx:id="grid1717" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="16" GridPane.rowIndex="17" onAction="#checkDeployment"/>
+        <Button fx:id="grid1718" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="17" GridPane.rowIndex="17" onAction="#checkDeployment"/>
+        <Button fx:id="grid1719" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="18" GridPane.rowIndex="17" onAction="#checkDeployment"/>
+        <Button fx:id="grid1720" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="19" GridPane.rowIndex="17" onAction="#checkDeployment"/>
+
+        <Button fx:id="grid1801" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="0" GridPane.rowIndex="18" onAction="#checkDeployment"/>
+        <Button fx:id="grid1802" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="1" GridPane.rowIndex="18" onAction="#checkDeployment"/>
+        <Button fx:id="grid1803" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="2" GridPane.rowIndex="18" onAction="#checkDeployment"/>
+        <Button fx:id="grid1804" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="3" GridPane.rowIndex="18" onAction="#checkDeployment"/>
+        <Button fx:id="grid1805" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="4" GridPane.rowIndex="18" onAction="#checkDeployment"/>
+        <Button fx:id="grid1806" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="5" GridPane.rowIndex="18" onAction="#checkDeployment"/>
+        <Button fx:id="grid1807" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="6" GridPane.rowIndex="18" onAction="#checkDeployment"/>
+        <Button fx:id="grid1808" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="7" GridPane.rowIndex="18" onAction="#checkDeployment"/>
+        <Button fx:id="grid1809" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="8" GridPane.rowIndex="18" onAction="#checkDeployment"/>
+        <Button fx:id="grid1810" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="9" GridPane.rowIndex="18" onAction="#checkDeployment"/>
+        <Button fx:id="grid1811" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="10" GridPane.rowIndex="18" onAction="#checkDeployment"/>
+        <Button fx:id="grid1812" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="11" GridPane.rowIndex="18" onAction="#checkDeployment"/>
+        <Button fx:id="grid1813" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="12" GridPane.rowIndex="18" onAction="#checkDeployment"/>
+        <Button fx:id="grid1814" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="13" GridPane.rowIndex="18" onAction="#checkDeployment"/>
+        <Button fx:id="grid1815" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="14" GridPane.rowIndex="18" onAction="#checkDeployment"/>
+        <Button fx:id="grid1816" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="15" GridPane.rowIndex="18" onAction="#checkDeployment"/>
+        <Button fx:id="grid1817" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="16" GridPane.rowIndex="18" onAction="#checkDeployment"/>
+        <Button fx:id="grid1818" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="17" GridPane.rowIndex="18" onAction="#checkDeployment"/>
+        <Button fx:id="grid1819" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="18" GridPane.rowIndex="18" onAction="#checkDeployment"/>
+        <Button fx:id="grid1820" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="19" GridPane.rowIndex="18" onAction="#checkDeployment"/>
+
+        <Button fx:id="grid1901" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="0" GridPane.rowIndex="19" onAction="#checkDeployment"/>
+        <Button fx:id="grid1902" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="1" GridPane.rowIndex="19" onAction="#checkDeployment"/>
+        <Button fx:id="grid1903" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="2" GridPane.rowIndex="19" onAction="#checkDeployment"/>
+        <Button fx:id="grid1904" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="3" GridPane.rowIndex="19" onAction="#checkDeployment"/>
+        <Button fx:id="grid1905" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="4" GridPane.rowIndex="19" onAction="#checkDeployment"/>
+        <Button fx:id="grid1906" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="5" GridPane.rowIndex="19" onAction="#checkDeployment"/>
+        <Button fx:id="grid1907" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="6" GridPane.rowIndex="19" onAction="#checkDeployment"/>
+        <Button fx:id="grid1908" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="7" GridPane.rowIndex="19" onAction="#checkDeployment"/>
+        <Button fx:id="grid1909" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="8" GridPane.rowIndex="19" onAction="#checkDeployment"/>
+        <Button fx:id="grid1910" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="9" GridPane.rowIndex="19" onAction="#checkDeployment"/>
+        <Button fx:id="grid1911" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="10" GridPane.rowIndex="19" onAction="#checkDeployment"/>
+        <Button fx:id="grid1912" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="11" GridPane.rowIndex="19" onAction="#checkDeployment"/>
+        <Button fx:id="grid1913" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="12" GridPane.rowIndex="19" onAction="#checkDeployment"/>
+        <Button fx:id="grid1914" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="13" GridPane.rowIndex="19" onAction="#checkDeployment"/>
+        <Button fx:id="grid1915" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="14" GridPane.rowIndex="19" onAction="#checkDeployment"/>
+        <Button fx:id="grid1916" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="15" GridPane.rowIndex="19" onAction="#checkDeployment"/>
+        <Button fx:id="grid1917" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="16" GridPane.rowIndex="19" onAction="#checkDeployment"/>
+        <Button fx:id="grid1918" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="17" GridPane.rowIndex="19" onAction="#checkDeployment"/>
+        <Button fx:id="grid1919" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="18" GridPane.rowIndex="19" onAction="#checkDeployment"/>
+        <Button fx:id="grid1920" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="19" GridPane.rowIndex="19" onAction="#checkDeployment"/>
+
+        <Button fx:id="grid2001" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="0" GridPane.rowIndex="20" onAction="#checkDeployment"/>
+        <Button fx:id="grid2002" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="1" GridPane.rowIndex="20" onAction="#checkDeployment"/>
+        <Button fx:id="grid2003" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="2" GridPane.rowIndex="20" onAction="#checkDeployment"/>
+        <Button fx:id="grid2004" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="3" GridPane.rowIndex="20" onAction="#checkDeployment"/>
+        <Button fx:id="grid2005" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="4" GridPane.rowIndex="20" onAction="#checkDeployment"/>
+        <Button fx:id="grid2006" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="5" GridPane.rowIndex="20" onAction="#checkDeployment"/>
+        <Button fx:id="grid2007" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="6" GridPane.rowIndex="20" onAction="#checkDeployment"/>
+        <Button fx:id="grid2008" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="7" GridPane.rowIndex="20" onAction="#checkDeployment"/>
+        <Button fx:id="grid2009" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="8" GridPane.rowIndex="20" onAction="#checkDeployment"/>
+        <Button fx:id="grid2010" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="9" GridPane.rowIndex="20" onAction="#checkDeployment"/>
+        <Button fx:id="grid2011" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="10" GridPane.rowIndex="20" onAction="#checkDeployment"/>
+        <Button fx:id="grid2012" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="11" GridPane.rowIndex="20" onAction="#checkDeployment"/>
+        <Button fx:id="grid2013" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="12" GridPane.rowIndex="20" onAction="#checkDeployment"/>
+        <Button fx:id="grid2014" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="13" GridPane.rowIndex="20" onAction="#checkDeployment"/>
+        <Button fx:id="grid2015" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="14" GridPane.rowIndex="20" onAction="#checkDeployment"/>
+        <Button fx:id="grid2016" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="15" GridPane.rowIndex="20" onAction="#checkDeployment"/>
+        <Button fx:id="grid2017" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="16" GridPane.rowIndex="20" onAction="#checkDeployment"/>
+        <Button fx:id="grid2018" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="17" GridPane.rowIndex="20" onAction="#checkDeployment"/>
+        <Button fx:id="grid2019" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="18" GridPane.rowIndex="20" onAction="#checkDeployment"/>
+        <Button fx:id="grid2020" disable="true" text=" " minWidth="50" maxWidth="50" GridPane.columnIndex="19" GridPane.rowIndex="20" onAction="#checkDeployment"/>
+
+        <Button minWidth="100" maxWidth="100" minHeight="50" maxHeight="50" text="Exit" GridPane.columnIndex="9" GridPane.rowIndex="21" GridPane.columnSpan="2" onAction="#switchToLanding"/>
+
+    </GridPane>
+</VBox>

@@ -1,18 +1,30 @@
+package ArcadeControllers;
+
+import ArcadeMain.ArcadeApplication;
+import javafx.application.Platform;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
-public class LandingController {
+import javafx.scene.control.Label;
 
-    private ArcadeApplication application;
+public class LandingController extends ArcadeController{
 
     @FXML
-    private Button nextButton;
-
-    public void setMain(ArcadeApplication main) {
-        this.application = main;
-    }
+    private Button sinkTheFleet;
+    @FXML
+    private Button threeInRow;
+    @FXML
+    private Button exit;
 
     @FXML
     private void switchToScene2() {
-        ArcadeApplication.changeScene(ArcadeApplication.getSecondScene(), "x");
+        ArcadeApplication.changeScene(ArcadeApplication.getSecondScene(), "sink the fleet");
+    }
+    @FXML
+    private void switchToScene3() {
+        ArcadeApplication.changeScene(ArcadeApplication.getThirdScene(), "three in row");
+    }
+    @FXML
+    private void programEnd() {
+        Platform.exit();
     }
 }

@@ -1,14 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="$CONTROLLER_NAME$"
-            prefHeight="400.0" prefWidth="600.0" >
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="ArcadeControllers.ThreeInRowController" alignment="CENTER">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+    <GridPane hgap="5" vgap="5" alignment="CENTER">
+        <Label minWidth="50" maxWidth="50" minHeight="50" maxHeight="50" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+        <Button fx:id="grid0101" minWidth="50" maxWidth="50" minHeight="50" maxHeight="50" text=" " GridPane.columnIndex="1" GridPane.rowIndex="0" onAction="#selectCell"/>
+        <Label minWidth="50" maxWidth="50" minHeight="50" maxHeight="50"  GridPane.columnIndex="2" GridPane.rowIndex="0"/>
+        <Button fx:id="grid0102" minWidth="50" maxWidth="50" minHeight="50" maxHeight="50"  text=" " GridPane.columnIndex="3" GridPane.rowIndex="0" onAction="#selectCell"/>
+        <Label minWidth="50" maxWidth="50" minHeight="50" maxHeight="50" GridPane.columnIndex="4" GridPane.rowIndex="0"/>
+        <Button fx:id="grid0103" minWidth="50" maxWidth="50" minHeight="50" maxHeight="50"  text=" " GridPane.columnIndex="5" GridPane.rowIndex="0" onAction="#selectCell"/>
+        <Label minWidth="50" maxWidth="50" minHeight="50" maxHeight="50" GridPane.rowIndex="1"/>
+        <Label minWidth="50" maxWidth="50" minHeight="50" maxHeight="50" GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+        <Button fx:id="grid0201" minWidth="50" maxWidth="50" minHeight="50" maxHeight="50" text=" " GridPane.columnIndex="1" GridPane.rowIndex="2" onAction="#selectCell"/>
+        <Label minWidth="50" maxWidth="50" minHeight="50" maxHeight="50" GridPane.columnIndex="2" GridPane.rowIndex="2"/>
+        <Button fx:id="grid0202" minWidth="50" maxWidth="50" minHeight="50" maxHeight="50" text=" " GridPane.columnIndex="3" GridPane.rowIndex="2" onAction="#selectCell"/>
+        <Label minWidth="50" maxWidth="50" minHeight="50" maxHeight="50" GridPane.columnIndex="4" GridPane.rowIndex="2"/>
+        <Button fx:id="grid0203" minWidth="50" maxWidth="50" minHeight="50" maxHeight="50" text=" " GridPane.columnIndex="5" GridPane.rowIndex="2" onAction="#selectCell"/>
+        <Label minWidth="50" maxWidth="50" minHeight="50" maxHeight="50" GridPane.rowIndex="3"/>
+        <Label minWidth="50" maxWidth="50" minHeight="50" maxHeight="50" GridPane.columnIndex="0" GridPane.rowIndex="4"/>
+        <Button fx:id="grid0301" minWidth="50" maxWidth="50" minHeight="50" maxHeight="50" text=" " GridPane.columnIndex="1" GridPane.rowIndex="4" onAction="#selectCell"/>
+        <Label minWidth="50" maxWidth="50" minHeight="50" maxHeight="50" GridPane.columnIndex="2" GridPane.rowIndex="4"/>
+        <Button fx:id="grid0302" minWidth="50" maxWidth="50" minHeight="50" maxHeight="50" text=" " GridPane.columnIndex="3" GridPane.rowIndex="4" onAction="#selectCell"/>
+        <Label minWidth="50" maxWidth="50" minHeight="50" maxHeight="50" GridPane.columnIndex="4" GridPane.rowIndex="4"/>
+        <Button fx:id="grid0303" minWidth="50" maxWidth="50" minHeight="50" maxHeight="50" text=" " GridPane.columnIndex="5" GridPane.rowIndex="4" onAction="#selectCell"/>
+        <Label minWidth="50" maxWidth="50" minHeight="50" maxHeight="50" GridPane.rowIndex="5"/>
+        <Label fx:id="message" GridPane.columnIndex="1" GridPane.columnSpan="6" GridPane.rowIndex="6"/>
+        <Button minWidth="275" maxWidth="275" minHeight="50" maxHeight="50" text="Exit" GridPane.columnIndex="1" GridPane.columnSpan="6" GridPane.rowIndex="7" onAction="#switchToLanding"/>
+    </GridPane>
+</VBox>
 
-</AnchorPane>
+

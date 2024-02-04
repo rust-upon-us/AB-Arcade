@@ -1,8 +1,11 @@
-module com.example.abarcade {
+module ArcadeMain {
     requires javafx.controls;
     requires javafx.fxml;
 
 
-    opens com.example.abarcade to javafx.fxml;
-    exports com.example.abarcade;
+    opens ArcadeMain to javafx.fxml;
+    opens ArcadeControllers to javafx.fxml;
+    exports ArcadeMain;
+    exports ArcadeGlobal;
+    exports ArcadeControllers;
 }

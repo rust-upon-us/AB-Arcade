@@ -4,21 +4,54 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfff73d2-d7ac-4e5e-8120-3106b0ac5179" name="Changes" comment="">
+    <list default="true" id="bfff73d2-d7ac-4e5e-8120-3106b0ac5179" name="Changes" comment="last version">
+      <change afterPath="$PROJECT_DIR$/src/main/test/java/TestArcade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/abarcade/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/abarcade/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ArcadeControllers/ArcadeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArcadeControllers/ArcadeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ArcadeControllers/FourInRowController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ArcadeControllers/LandingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArcadeControllers/LandingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ArcadeControllers/SinkTheFleetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArcadeControllers/SinkTheFleetController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ArcadeControllers/ThreeInRowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArcadeControllers/ThreeInRowController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ArcadeGlobal/GameActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArcadeGlobal/GameActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ArcadeGlobal/WindowHeight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArcadeGlobal/WindowHeight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ArcadeGlobal/WindowWidth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArcadeGlobal/WindowWidth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ArcadeMain/ArcadeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArcadeMain/ArcadeApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/ArcadeMain/Arcade_Landing.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ArcadeMain/Arcade_Landing.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/ArcadeMain/Arcade_Sink_The_Fleet.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ArcadeMain/Arcade_Sink_The_Fleet.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/ArcadeMain/Arcade_Three_In_Row.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ArcadeMain/Arcade_Three_In_Row.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Kotlin Class" />
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2azGUjOu0GmeD19XAe4VdtWEiXG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -29,11 +62,99 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "W:/Files/Projects/AB-Arcade",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="W:\Files\Projects\AB-Arcade" />
+      <recent name="W:\Files\Projects\AB-Arcade\src\main\test" />
+      <recent name="W:\Files\Projects\AB-Arcade\src\main\resources\ArcadeGraphics" />
+      <recent name="W:\Files\Projects\AB-Arcade\src\main\resources\ArcadeMain" />
+      <recent name="W:\Files\Projects\AB-Arcade\src\main\resources\ArcadeWindows" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="W:\Files\Projects\AB-Arcade\src\main\java" />
+      <recent name="W:\Files\Projects\AB-Arcade\src\main\resources\ArcadeMain" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ArcadeApplication">
+    <configuration name="ArcadeApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArcadeMain.ArcadeApplication" />
+      <module name="AB-Arcade" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ArcadeMain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestArcade.testInvalidVector" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AB-Arcade" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestArcade" />
+      <option name="METHOD_NAME" value="testInvalidVector" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestArcade.testNestIterationAllowedFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AB-Arcade" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestArcade" />
+      <option name="METHOD_NAME" value="testNestIterationAllowedFalse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestArcade.testNextIterationInvalid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AB-Arcade" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestArcade" />
+      <option name="METHOD_NAME" value="testNextIterationInvalid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestArcade.testValidVector" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AB-Arcade" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestArcade" />
+      <option name="METHOD_NAME" value="testValidVector" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ArcadeApplication" />
+        <item itemvalue="JUnit.TestArcade.testInvalidVector" />
+        <item itemvalue="JUnit.TestArcade.testNestIterationAllowedFalse" />
+        <item itemvalue="JUnit.TestArcade.testNextIterationInvalid" />
+        <item itemvalue="JUnit.TestArcade.testValidVector" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -42,8 +163,31 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705314012733</updated>
-      <workItem from="1705314013695" duration="2000" />
+      <workItem from="1705314013695" duration="11692000" />
+      <workItem from="1705339725125" duration="2045000" />
+      <workItem from="1705416623851" duration="119000" />
+      <workItem from="1705416992698" duration="126000" />
+      <workItem from="1705477995650" duration="8085000" />
+      <workItem from="1705499929047" duration="3737000" />
+      <workItem from="1705529423750" duration="399000" />
+      <workItem from="1705601506629" duration="659000" />
+      <workItem from="1705946924533" duration="56000" />
+      <workItem from="1706604828403" duration="5488000" />
+      <workItem from="1706732581805" duration="6563000" />
+      <workItem from="1706779021966" duration="3567000" />
+      <workItem from="1706904760881" duration="9322000" />
+      <workItem from="1706949266981" duration="18681000" />
+      <workItem from="1706994999002" duration="2368000" />
+      <workItem from="1707037279767" duration="5033000" />
+      <workItem from="1707056161042" duration="9445000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="last version" />
+    <option name="LAST_COMMIT_MESSAGE" value="last version" />
   </component>
 </project>
