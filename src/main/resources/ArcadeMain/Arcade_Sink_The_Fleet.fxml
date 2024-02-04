@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+
+<GridPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="your.package.name.GridController" alignment="CENTER" hgap="5" vgap="5">
+    <!-- Add Buttons for a 20x20 grid -->
+
+    <!-- You can customize the buttons as needed -->
+    <Button text="1" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+    <!-- Add more buttons for other cells in the grid -->
+
+</GridPane>
