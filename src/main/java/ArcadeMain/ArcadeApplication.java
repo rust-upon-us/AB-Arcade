@@ -17,8 +17,6 @@ public class ArcadeApplication extends Application {
     private static Scene scene1;
     private static Scene scene2;
     private static Scene scene3;
-    private static Scene scene4;
-    private static Scene scene5;
 
     public static void main(String[] args) {
         launch();
@@ -33,10 +31,8 @@ public class ArcadeApplication extends Application {
         scene2 = createScene("Arcade_Sink_The_Fleet.fxml", WindowWidth.getInstance().getWidth(), WindowHeight.getInstance().getHeight());
 
         scene3 = createScene("Arcade_Three_In_Row.fxml", WindowWidth.getInstance().getWidth(), WindowHeight.getInstance().getHeight());
-        scene4 = createScene("Arcade_Three_In_Row.fxml", WindowWidth.getInstance().getWidth(), WindowHeight.getInstance().getHeight());
-        scene5 = createScene("Arcade_Three_In_Row.fxml", WindowWidth.getInstance().getWidth(), WindowHeight.getInstance().getHeight());
         // Check for the possibility of not being able to recover some of the scenes
-        if (scene1 != null || scene2 != null || scene3 != null|| scene4 != null|| scene5 != null){
+        if (scene1 != null || scene2 != null || scene3 != null){
             // All the scenes were recovered properly proceed with the display of the main window
             changeScene(scene1,"Landing");
             primaryStage.show();
@@ -104,11 +100,5 @@ public class ArcadeApplication extends Application {
     }
     public static Scene getThirdScene(){
         return scene3;
-    }
-    public static Scene getFourthScene(){
-        return scene4;
-    }
-    public static Scene getFifthScene(){
-        return scene5;
     }
 }

@@ -4,24 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfff73d2-d7ac-4e5e-8120-3106b0ac5179" name="Changes" comment="last version">
-      <change afterPath="$PROJECT_DIR$/src/main/test/java/TestArcade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="bfff73d2-d7ac-4e5e-8120-3106b0ac5179" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ArcadeControllers/ArcadeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArcadeControllers/ArcadeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ArcadeControllers/FourInRowController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ArcadeControllers/LandingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArcadeControllers/LandingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ArcadeControllers/SinkTheFleetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArcadeControllers/SinkTheFleetController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ArcadeControllers/ThreeInRowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArcadeControllers/ThreeInRowController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ArcadeGlobal/GameActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArcadeGlobal/GameActions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ArcadeGlobal/WindowHeight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArcadeGlobal/WindowHeight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ArcadeGlobal/WindowWidth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArcadeGlobal/WindowWidth.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ArcadeMain/ArcadeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArcadeMain/ArcadeApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/ArcadeMain/Arcade_Landing.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ArcadeMain/Arcade_Landing.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/ArcadeMain/Arcade_Sink_The_Fleet.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ArcadeMain/Arcade_Sink_The_Fleet.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/ArcadeMain/Arcade_Three_In_Row.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ArcadeMain/Arcade_Three_In_Row.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,23 +44,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "W:/Files/Projects/AB-Arcade",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;W:/Files/Projects/AB-Arcade&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="W:\Files\Projects\AB-Arcade" />
@@ -179,8 +165,18 @@
       <workItem from="1706949266981" duration="18681000" />
       <workItem from="1706994999002" duration="2368000" />
       <workItem from="1707037279767" duration="5033000" />
-      <workItem from="1707056161042" duration="9445000" />
+      <workItem from="1707056161042" duration="9930000" />
+      <workItem from="1707128885460" duration="2455000" />
     </task>
+    <task id="LOCAL-00001" summary="last version">
+      <option name="closed" value="true" />
+      <created>1707074404107</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707074404107</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
